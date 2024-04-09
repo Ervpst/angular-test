@@ -1,0 +1,18 @@
+<p>leht works!</p>
+<button mat-raised-button color="primary" (click)="test()">
+    Set state </button>
+
+    @if (showHello) {
+        <h2>Hello</h2>
+    }
+    @else if (showGoodbye) {
+        <h2>Goodbye</h2>
+    }
+    @else {
+        <h2>See you later</h2>
+    }
+<ul>
+    @for (colors of colors;track colors){
+        <li>{{colors}}</li>
+    }
+</ul>
